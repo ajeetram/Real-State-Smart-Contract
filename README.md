@@ -1,5 +1,5 @@
 # Real-State-Smart-Contract
-This smart contract is capable to solve the problem of Real Estate. It can list the property with unique Id, price, name, location and descriptions for the sale. Any other user can buy the listed property, after bought the particular property it will assign to that property to the buyer address with unique Id. This smart contract is written in solidiy language. 
+This smart contract is capable to solve the problem of Real Estate. It can list the property with unique Id, price, name, location and descriptions for the sale. Any other user can buy the listed property, after bought the particular property it will assign to that property to the buyer address with unique Id. User with the help of of their property Ids can see the all the property details. This smart contract is written in solidiy language. 
 
 
 ## Screenshots(Smart contract tested on Remix-Ethereum IDE)
