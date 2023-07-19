@@ -7,10 +7,11 @@ import "https://github.com/Openzeppelin-contracts/blob/master/contracts/utils/ma
 contract RealEstate
 {
     using SafeMath for uint256;
-    
+
+// required details about property
     struct Property
     {
-        uint256 price;
+        uint256 Price;
         address owner;
         bool forSale;
         string Pro_name;
@@ -27,7 +28,7 @@ contract RealEstate
     function listPropertyForSale(uint256 _property_Ids, uint256 _price, string memory _name, string memory _description, string memory _location)
     public 
     {
-        Property memory newProperty = Property({price:_price, owner:msg.sender,forSale:true,name:_name, _description:_description});
+        Property memory newProperty = Property({Price:_price, owner:msg.sender,forSale:true,name:_name, _description:_description});
     
 
     properties[_property_Ids] = newProperty;
