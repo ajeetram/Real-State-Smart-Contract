@@ -7,7 +7,8 @@ import "https://github.com/Openzeppelin-contracts/blob/master/contracts/utils/ma
 contract RealEstate
 {
     using SafeMath for uint256;
-    
+
+// required details about property
     struct Property
     {
         uint256 Price;
