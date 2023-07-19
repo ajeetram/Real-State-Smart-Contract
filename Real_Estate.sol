@@ -19,6 +19,7 @@ contract RealEstate
         string location;
     }
 
+// assigning each address w.r.t. to their property
     mapping(uint256=>Property) public properties;
 
     uint256[] public property_Ids;
